@@ -83,4 +83,3 @@ function wpCJ_url_exists($url) {
   return $connectable;
 }
 
-?>
