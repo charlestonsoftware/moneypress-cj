@@ -4,3 +4,6 @@
 [submodule "WPCSL-generic"]
 	path = WPCSL-generic
 	url = /home/wordpress/wp-content/plugins/moneypress-cj-le/WPCSL-generic
+[submodule "Panhandler"]
+	path = Panhandler
+	url = ../../modules/Panhandler.git
