@@ -1,0 +1,6 @@
+[submodule "core"]
+	path = core
+	url = ssh://lcleveland@cybersprocket.com/home/lobbrary/repos/products/MP-cj-core.git
+[submodule "WPCSL-Generic"]
+	path = WPCSL-Generic
+	url = ssh://lcleveland@cybersprocket.com/home/lobbrary/repos/modules/WPCSL-generic.git
