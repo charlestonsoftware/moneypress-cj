@@ -64,8 +64,33 @@ if (defined('MP_CJ_PREFIX') === false) {
 // Include our needed files
 //
 include_once(MP_CJ_PLUGINDIR . '/include/config.php'   );
+include_once(MP_CJ_COREDIR   . 'csl_helpers.php'       );
+if (class_exists('PanhandlerProduct') === false) {
+    try {
+        require_once('Panhandler/Panhandler.php');
+    }
+    catch (PanhandlerMissingRequirement $exception) {
+        add_action('admin_notices', array($exception, 'getMessage'));
+        exit(1);
+    }
+}
+if (class_exists('CommissionJunctionPanhandler') === false) {
+    try {
+        require_once('Panhandler/Drivers/CommissionJunction.php');
+    }
+    catch (PanhandlerMissingRequirement $exception) {
+        add_action('admin_notices', array($exception, 'getMessage'));
+        exit(1);
+    }
+}
 
 
+
+
+register_activation_hook( __FILE__, 'csl_mpcj_activate');
+
+add_action('admin_init','csl_mpcj_setup_admin_interface',10);
+                         
 
 //-----------------------------------------------------------------------------
 // LEGACY STUFF - CAN PROBABLY GO AWAY
@@ -93,7 +118,7 @@ function wpCJ_keyword_list($keywords) {
 function wpCJ_Handle_Admin_Menu() {
   global $MP_cj_plugin;
 
-  if ($MP_cj_plugin->settings->check_required('Primary Settings')) {
+  if ($MP_cj_plugin->settings->check_required('CJ Communications')) {
     add_meta_box('wpcjStoreMB', 'CSL Quick Commission Junction Entry', 'wpCJ_StoreInsertForm', 'post', 'normal');
     add_meta_box('wpcjStoreMB', 'CSL Quick Commission Junction Entry', 'wpCJ_StoreInsertForm', 'page', 'normal');
   }
