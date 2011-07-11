@@ -112,6 +112,10 @@ us for a quote.
 
 1. The CJ system in action.
 
+== Upgrade Notice ==
+
+This is a major upgrade to the Commmission Junction product engine. You will need to re-enter your CJ API keys and other settings.
+
 == Changelog ==
 
 = v1.08 (July 2011) =
