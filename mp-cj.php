@@ -25,12 +25,51 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-define('CJPLUGINDIR', plugin_dir_path(__FILE__));
-define('CJPLUGINURL', plugins_url('',__FILE__));
+// Drive Path Defines 
+//
+if (defined('MP_CJ_PLUGINDIR') === false) {
+    define('MP_CJ_PLUGINDIR', plugin_dir_path(__FILE__));
+}
+if (defined('MP_CJ_COREDIR') === false) {
+    define('MP_CJ_COREDIR', MP_CJ_PLUGINDIR . 'core/');
+}
+if (defined('MP_CJ_ICONDIR') === false) {
+    define('MP_CJ_ICONDIR', MP_CJ_COREDIR . 'images/icons/');
+}
 
-include_once('include/config.php');
+// URL Defines
+//
+if (defined('MP_CJ_PLUGINURL') === false) {
+    define('MP_CJ_PLUGINURL', plugins_url('',__FILE__));
+}
+if (defined('MP_CJ_COREURL') === false) {
+    define('MP_CJ_COREURL', MP_CJ_PLUGINURL . '/core/');
+}
+if (defined('MP_CJ_ICONURL') === false) {
+    define('MP_CJ_ICONURL', MP_CJ_COREURL . 'images/icons/');
+}
+
+// The relative path from the plugins directory
+//
+if (defined('MP_CJ_BASENAME') === false) {
+    define('MP_CJ_BASENAME', plugin_basename(__FILE__));
+}
+
+// Our product prefix
+//
+if (defined('MP_CJ_PREFIX') === false) {
+    define('MP_CJ_PREFIX', 'csl-mp-cj');
+}
+
+// Include our needed files
+//
+include_once(MP_CJ_PLUGINDIR . '/include/config.php'   );
 
 
+
+//-----------------------------------------------------------------------------
+// LEGACY STUFF - CAN PROBABLY GO AWAY
+//-----------------------------------------------------------------------------
 if ( is_admin() ) {
   add_action('admin_menu', 'wpCJ_Handle_Admin_Menu');
   add_filter('admin_print_scripts', 'wpCJ_Admin_Head');
@@ -52,9 +91,9 @@ function wpCJ_keyword_list($keywords) {
 }
 
 function wpCJ_Handle_Admin_Menu() {
-  global $cj_plugin;
+  global $MP_cj_plugin;
 
-  if ($cj_plugin->settings->check_required('Primary Settings')) {
+  if ($MP_cj_plugin->settings->check_required('Primary Settings')) {
     add_meta_box('wpcjStoreMB', 'CSL Quick Commission Junction Entry', 'wpCJ_StoreInsertForm', 'post', 'normal');
     add_meta_box('wpcjStoreMB', 'CSL Quick Commission Junction Entry', 'wpCJ_StoreInsertForm', 'page', 'normal');
   }
