@@ -12,5 +12,7 @@ he following code will show products from your Commission Junction store:<br/>
 |
 <a href="http://redmine.cybersprocket.com/projects/cjwp/files" target="cybersprocket">Downloads</a>
 |
+<a href="http://www.cybersprocket.com/contact-us/" target="cybersprocket">Contact Us</a>
+|
 <a href="http://www.cybersprocket.com/products/wpcjproductsearch/" target="cybersprocket">Buy Now</a>
 </p>

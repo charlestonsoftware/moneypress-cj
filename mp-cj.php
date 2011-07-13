@@ -89,6 +89,7 @@ if (class_exists('CommissionJunctionPanhandler') === false) {
 
 register_activation_hook( __FILE__, 'csl_mpcj_activate');
 
+add_action('admin_print_styles','csl_mpcj_admin_stylesheet');
 add_action('admin_init','csl_mpcj_setup_admin_interface',10);
                          
 
