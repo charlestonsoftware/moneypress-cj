@@ -18,6 +18,8 @@ if (defined('MP_CJ_PLUGINDIR')) {
             'css_prefix'            => 'csl_themes',            
             'name'                  => 'MoneyPress : Commission Junction LE',
             'url'                   => 'http://www.cybersprocket.com/products/wpcjproductsearch/',
+            'support_url'           => 'http://redmine.cybersprocket.com/projects/cjwp/wiki',
+            'purchase_url'          => 'http://www.cybersprocket.com/products/wpcjproductsearch/',
             'basefile'              => MP_CJ_BASENAME,
             'plugin_path'           => MP_CJ_PLUGINDIR,
             'plugin_url'            => MP_CJ_PLUGINURL,
@@ -33,7 +35,6 @@ if (defined('MP_CJ_PLUGINDIR')) {
                     ),
             'shortcodes'            => array('mp-cj','mp_cj', 'cj_show-items', 'cj_show_items')
         )
-    );
-
+    );    
 }
 
