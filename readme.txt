@@ -5,7 +5,7 @@ Donate link: http://www.cybersprocket.com/products/wpcjproductsearch/
 Tags: plugin,post,page,cj,comission,junction,affiliate,store
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 1.08
+Stable tag: 1.09
 
 Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
 
@@ -50,7 +50,7 @@ Learn more at: http://www.cybersprocket.com/services/wordpress-developers/
 
 = Related Links =
 
-* [MoneyPress CafePress Standard Edition](http://www.cybersprocket.com/products/wpcjproductsearch/)
+* [MoneyPress Commission Junction Standard Edition](http://www.cybersprocket.com/products/wpcjproductsearch/)
 * [Other Cyber Sprocket Plugins](http://wordpress.org/extend/plugins/profile/cybersprocket/) 
 * [Our Facebook Page](http://www.facebook.com/cyber.sprocket.labs)
 
@@ -110,7 +110,15 @@ us for a quote.
 
 == Screenshots ==
 
-1. The CJ system in action.
+1. Product Listing Output
+2. Adding A Shortcode To A Listing
+3. Default Product Lookup Settings
+4. Settings Help System
+5. Display Settings Interface (themes is premium feature)
+6. Easy Access Links For More Assistance
+7. Plugin Listing Shortcut Links
+8. About CSL
+9. A short product listing of books (2-column style premium feature)
 
 == Upgrade Notice ==
 
@@ -118,7 +126,13 @@ This is a major upgrade to the Commmission Junction product engine. You will nee
 
 == Changelog ==
 
+= v1.09 (July 2011) =
+
+* Screen shots.
+* More internationalization/localization language files.
+
 = v1.08 (July 2011) =
+
 * Added anchor tags to notifications for missing required option fields
 * Reworked notifications to use new object-based system (no front-end changes)
 * Reworked options page to use new object-based system (no front-end changes)

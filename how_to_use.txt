@@ -1,6 +1,6 @@
 <p>To use MoneyPress : Commission Junction LE  you only need to add a simple 
 shortcode to any page where you want to show a list of Commission Junction products. 
-he following code will show products from your Commission Junction store:<br/>
+The following code will show products from your Commission Junction store:<br/>
 <code>[mp-cj]</code><br/>
 <br/>
 <p class="productbox_lvl2">
