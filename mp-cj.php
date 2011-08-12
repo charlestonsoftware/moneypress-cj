@@ -3,7 +3,7 @@
   Plugin Name: MoneyPress : Commission Junction LE
   Plugin URI: http://www.cybersprocket.com/products/wpcjproductsearch/
   Description: Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
-  Version: 1.09
+  Version: 1.09.1
   Author: Cyber Sprocket Labs
   Author URI: http://www.cybersprocket.com
   License: GPL3

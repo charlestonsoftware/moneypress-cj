@@ -5,7 +5,7 @@ Donate link: http://www.cybersprocket.com/products/wpcjproductsearch/
 Tags: plugin,post,page,cj,comission,junction,affiliate,store
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 1.09
+Stable tag: 1.09.1
 
 Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
 
@@ -125,6 +125,10 @@ us for a quote.
 This is a major upgrade to the Commmission Junction product engine. You will need to re-enter your CJ API keys and other settings.
 
 == Changelog ==
+
+= v1.09.1 (August 2011) =
+
+* Elminate errors on servers with exec() disabled on php.
 
 = v1.09 (July 2011) =
 
