@@ -135,8 +135,9 @@ We have merged both products into one.  MoneyPress : Commission Junction Edition
 = v1.2 (April 2012) =
 
 * Various bug fixes.
-* [Pro Pack] Updated themes.
-* 
+* Removed any required licensing.
+* Set Pro Pack as an add-on license.
+* [Pro Pack] Added 2-column narrow theme. 
 
 = v1.09.1 (August 2011) =
 
