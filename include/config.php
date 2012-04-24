@@ -34,7 +34,7 @@ if (defined('MP_CJ_PLUGINDIR')) {
                     'return'    => get_option(MP_CJ_PREFIX.'-return'),
                     'wait_for'  => get_option(MP_CJ_PREFIX.'-wait_for')
                     ),
-            'shortcodes'            => array('mp-cj','mp_cj', 'cj_show-items', 'cj_show_items'),
+            'shortcodes'            => array('mpcj','mp-cj','mp_cj', 'cj_show-items', 'cj_show_items'),
             
             'has_packages'           => true,                
         )
