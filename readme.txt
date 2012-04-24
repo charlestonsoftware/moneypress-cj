@@ -3,7 +3,7 @@ Plugin Name: MoneyPress : Commission Junction Edition
 Contributors: cybersprocket
 Donate link: http://www.cybersprocket.com/products/wpcjproductsearch/
 Tags: plugin,post,page,cj,comission,junction,affiliate,store,commission,commission junction
-Requires at least: 3.0
+Requires at least: 3.3
 Tested up to: 3.3.2
 Stable tag: 1.2
 Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
