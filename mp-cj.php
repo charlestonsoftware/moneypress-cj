@@ -1,28 +1,28 @@
 <?php
 /*
-  Plugin Name: MoneyPress : Commission Junction LE
-  Plugin URI: http://www.cybersprocket.com/products/wpcjproductsearch/
-  Description: Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
-  Version: 1.09.1
-  Author: Cyber Sprocket Labs
-  Author URI: http://www.cybersprocket.com
-  License: GPL3
+Plugin Name: MoneyPress : Commission Junction Edition
+Plugin URI: http://www.cybersprocket.com/products/wpcjproductsearch/
+Description: Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
+Version: 1.2
+Author: Cyber Sprocket Labs
+Author URI: http://www.cybersprocket.com
+License: GPL3
   
-	Copyright 2011  Cyber Sprocket Labs (info@cybersprocket.com)
+Copyright 2012  Cyber Sprocket Labs (info@cybersprocket.com)
 
-	This program is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 3 of the License, or
-	(at your option) any later version.
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
 
-	This program is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-	You should have received a copy of the GNU General Public License
-	along with this program; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 // Drive Path Defines 

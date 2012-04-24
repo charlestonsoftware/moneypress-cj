@@ -1,19 +1,16 @@
-=== MoneyPress : Commission Junction LE ===
-Plugin Name: MoneyPress : Commission Junction LE
+=== MoneyPress : Commission Junction Edition ===
+Plugin Name: MoneyPress : Commission Junction Edition
 Contributors: cybersprocket
 Donate link: http://www.cybersprocket.com/products/wpcjproductsearch/
-Tags: plugin,post,page,cj,comission,junction,affiliate,store
+Tags: plugin,post,page,cj,comission,junction,affiliate,store,commission,commission junction
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 1.09.1
-
+Stable tag: 1.2
 Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
 
 == Description ==
 
 Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
-
-Note: This is our light edition (LE) product which is free with no license or license keys required.  You can learn more about the standard edition product [MoneyPress Commision Junction Edition](http://www.cybersprocket.com/products/wpcjproductsearch/) at our product page.
 
 = Features =
 
@@ -28,23 +25,29 @@ Note: This is our light edition (LE) product which is free with no license or li
   faster lookup times.
   
 
-= Want More? Try Our Standard Edition =
+= Pro Pack Available =
 
-Version 1.1 of [MoneyPress Commision Junction Edition](http://www.cybersprocket.com/products/wpcjproductsearch/) is in development and will be out soon. 
-
-Some of the features in the standard edition that are not found in the LE version include:
+The Pro Pack is a paid add-on that adds teh following features:
 
 * [Theme System](http://redmine.cybersprocket.com/projects/cjwp/wiki/Themes) : Use one of our basic themes including multi-column output or easily create and add your own.
 * [More Settings](http://redmine.cybersprocket.com/projects/cjwp/wiki/Setttings) : More settings for better listing control.
-* Bug Fixes: Latest bug fixes come out on the standard edition first, LE is 2-4 weeks behind.
 
+== Upgrades ==
 
-= We Can Customize This Plugin For You! =
+We will offer upgrade versions from time-to-time when special new features are added to the product.  
+If you do not purchase the upgrade you will still receive bug fixes and minor feature additions, however
+some of the newest features may not be available to you.   
 
-Cyber Sprocket can provide modifications to the plugin to make it the perfect solution for your site.  
-We charge $60/hour to create custom additions that we roll into the next product release. 
-You get exactly the plugin you want and will have the benefit of having a mainstream product release.
-You get the benefit of getting our future upgrades without having to re-apply your patches.
+The main product will always remain fully functional and free.  If you'd like to have some of the latest
+"bells & whistles" purchasing the upgrades is a great way to help support us and encourage us to add even
+more items the next time around.
+
+= Looking For Customized WordPress Plugins? =
+
+If you are looking for custom WordPress development for your own plugins, give 
+us a call.   Not only can we offer competitive rates but we can also leverage 
+our existing framework for WordPress applications which reduces development time 
+and costs.
 
 Learn more at: http://www.cybersprocket.com/services/wordpress-developers/
 
@@ -75,30 +78,33 @@ To do it manually:
 
 == Frequently Asked Questions ==
 
+= What are the terms of the license? =
+
+The license is based on GPL.  You get the code, feel free to modify it as you
+wish.  We prefer that our customers pay us because they like what we do and 
+want to support our efforts to bring useful software to market.  Learn more
+on our [CSL License Terms page](http://redmine.cybersprocket.com/projects/commercial-products/wiki/Cyber_Sprocket_Labs_Licensing_Terms "CSL License Terms page").
+
 = What percentage of my sales does Cyber Sprocket keep? =
 
 None.  Everything you earn through this plugin is yours, we don't siphon off 
 any of your sales or earn anything outside of our one-time license fee.
 
-= What type of support do I get? =
 
-Our light edition (LE) plugins are unsupported.   Paid support options are
-available.  Support rates are $120/hour prepaid.
+= How can I translate the plugin into my language? =
 
-= Will you customize the plugin for me? =
+* Find on internet the free program POEDIT, and learn how it works.
+* Use the .pot file located in the languages directory of this plugin to create or update the .po files.
+* Place these file in the languages subdirectory.
+* If everything is ok, email the files to lobbyjones@cybersprocket.com and we will add them to the next release.
+* For more information on POT files, domains, gettext and i18n have a look at the I18n for WordPress developers Codex page and more specifically at the section about themes and plugins.
 
-If you want a modification and need it in a hurry, contact us for a quote on
-getting this done.  Any work we can re-use and share with the communinty as
-part of main plugin can usually be completed in a few weeks.  We charge $60/hr
-for this work with most projects running 6-10 hours.    If you want a private
-modification we charge $120/hr for the work.
+If you create a translation file please send it to us and we'll include it in the next release!  We'll also list you here in our credits section!
 
-= Who Is Cyber Sprocket Labs? =
+= What browsers are supported? =
 
-Cyber Sprocket Labs is a software consulting firm.  We develop custom complex
-web applications, mobile applications, and desktop applications for our clients.
-If you are looking for help developing and deploying your application, contact
-us for a quote.
+All major browsers should work, however Cyber Sprocket Labs only officially supports the current and prior releases of Internet Explorer, Firefox, Chrome, and Safari.
+
 
 = How can i translate the plugin into my language? =
 
@@ -107,6 +113,10 @@ us for a quote.
 * Place these file in the languages subdirectory.
 * If everything is ok, email the files to lobbyjones@cybersprocket.com and we will add them to the next release.
 * For more information on POT files, domains, gettext and i18n have a look at the I18n for WordPress developers Codex page and more specifically at the section about themes and plugins.
+
+= What Happened To The LE and Standard Edition =
+
+We have merged both products into one.  MoneyPress : Commission Junction Edition now offers complete base functionality for free.   Users can opt to purchase the Pro Pack add-on to get extra features like themes.
 
 == Screenshots ==
 
@@ -120,11 +130,13 @@ us for a quote.
 8. About CSL
 9. A short product listing of books (2-column style premium feature)
 
-== Upgrade Notice ==
-
-This is a major upgrade to the Commmission Junction product engine. You will need to re-enter your CJ API keys and other settings.
-
 == Changelog ==
+
+= v1.2 (April 2012) =
+
+* Various bug fixes.
+* [Pro Pack] Updated themes.
+* 
 
 = v1.09.1 (August 2011) =
 
