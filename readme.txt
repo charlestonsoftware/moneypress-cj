@@ -5,7 +5,7 @@ Donate link: http://www.cybersprocket.com/products/wpcjproductsearch/
 Tags: plugin,post,page,cj,comission,junction,affiliate,store,commission,commission junction
 Requires at least: 3.3
 Tested up to: 3.3.2
-Stable tag: 1.2
+Stable tag: 1.2.1
 Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
 
 == Description ==
@@ -32,7 +32,7 @@ The Pro Pack is a paid add-on that adds teh following features:
 * [Theme System](http://redmine.cybersprocket.com/projects/cjwp/wiki/Themes) : Use one of our basic themes including multi-column output or easily create and add your own.
 * [More Settings](http://redmine.cybersprocket.com/projects/cjwp/wiki/Setttings) : More settings for better listing control.
 
-== Upgrades ==
+= Upgrades =
 
 We will offer upgrade versions from time-to-time when special new features are added to the product.  
 If you do not purchase the upgrade you will still receive bug fixes and minor feature additions, however
@@ -73,7 +73,7 @@ To do it manually:
 * Download the zip file from the WordPress Extensions site.
 * Upload the zip file into WordPress via "upload plugins".
 * Get your CJ Key, and CJ Web ID from Commission Junction
-* Go to MoneyPress : CJ LE in the Wordpress Settings menu.
+* Go to MoneyPress : CJ in the Wordpress Settings menu.
 * Enter your CJ Key and CJ Web ID and any other options you'd like to set.
 
 == Frequently Asked Questions ==
@@ -132,7 +132,7 @@ We have merged both products into one.  MoneyPress : Commission Junction Edition
 
 == Changelog ==
 
-= v1.2 (April 2012) =
+= v1.2.1 (April 2012) =
 
 * Various bug fixes.
 * Removed any required licensing.
