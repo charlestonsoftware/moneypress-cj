@@ -3,7 +3,7 @@
 Plugin Name: MoneyPress : Commission Junction Edition
 Plugin URI: http://www.cybersprocket.com/products/wpcjproductsearch/
 Description: Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
-Version: 1.2
+Version: 1.2.1
 Author: Cyber Sprocket Labs
 Author URI: http://www.cybersprocket.com
 License: GPL3
@@ -65,6 +65,7 @@ if (defined('MP_CJ_PREFIX') === false) {
 //
 include_once(MP_CJ_PLUGINDIR . '/include/config.php'   );
 include_once(MP_CJ_COREDIR   . 'csl_helpers.php'       );
+include_once(MP_CJ_PLUGINDIR . 'plus.php'       );
 if (class_exists('PanhandlerProduct') === false) {
     try {
         require_once('Panhandler/Panhandler.php');
