@@ -1,0 +1,81 @@
+/******************************************************************************
+ * File: admin.css 
+ * 
+ * admin pages stylesheet.
+ *
+ ******************************************************************************/
+ 
+div#icon-MoneyPress___Commission_Junction_Edition.icon32 {
+    background: url("../../core/images/mpcj_icon.png") no-repeat scroll -12px -3px transparent;        
+}
+ 
+p.productbox_lvl2 {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #DFDFDF;
+    margin-left: 30px;
+    padding: 6px;
+    width: 505px;
+    text-align:center;
+}
+
+img.helpicon {
+    background: url("../../core/images/General_icons16.png") no-repeat scroll -12px -3px transparent;    
+}
+
+/* Input Labels */
+table.form-table tbody tr th.input_label {
+    vertical-align: top;
+    padding-top: 14px;
+}
+
+div.csl_themes-input {
+    float: left;
+}
+
+/* More Info Box */
+div.csl_themes-moreicon {
+    background: url("../../core/images/General_icons16.png") 
+        no-repeat scroll 
+        -17px 0px 
+        transparent; 
+    height:20px;
+    width: 20px;
+    float: left;
+    cursor: pointer;  
+    margin-top: 2px;
+}
+div.csl_themes-moretext {
+    display: none;
+    clear: both;    
+}
+
+/* Required Option Box */
+div.csl_themes-reqbox {
+    clear: left;
+}
+div.csl_themes-reqicon {
+    background: url("../../core/images/General_icons16.png") 
+        no-repeat scroll 
+        0px 0px 
+        transparent; 
+    height:16px;
+    width: 16px;
+    float: left;
+}
+div.csl_themes-reqtext {
+    float:left;
+    color: #880000;
+}
+
+/* CSL Info Section */
+div.csl_themes-csllogo {
+    float: left;
+    background: #FFFFFF;
+    padding: 12px;
+    margin: 0px 12px 0px 0px;
+    border: solid 1px black;
+}
+div.csl_themes-cslinfo {
+    float: left;
+}
+

@@ -1,0 +1,98 @@
+/** 
+ ** file: mp-sidebyside-narrow.css
+ ** label: Side-By-Side Narrow
+ ** columns: 2
+ ** description: 2 columns in side-by-side narrow format.
+ **
+ **/
+
+
+/* Product Rows */
+ .csl_themes-row {
+    clear: both;
+    min-width: 852px;
+ }
+ 
+ /* Product Box Header */
+ div#content div.csl_themes-product h3 { 
+     margin: 0px 0px 3px 0px;
+ }
+ 
+/* Product Zoom */
+div.csl_themes-product div.csl_themes-left div.csl_themes-zoombox {
+    background: url("../core/images/General_icons16.png") 
+        no-repeat scroll 
+        -41px 0px 
+        transparent; 
+    height:20px;
+    width: 20px;
+    float: left;
+    cursor: pointer;  
+    margin: 0px;
+    padding: 0px;
+} 
+div.csl_themes-zoombox a.thickbox {
+    padding: 0px 5px;
+    text-decoration: none;
+}
+
+
+ 
+.csl_themes-product {
+    float: left;
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    margin: 10px 2px;
+    padding: 0px;
+    height: 350px;
+    width: 280px;
+    overflow: auto;
+    position: relative;
+    display: block;
+}
+
+.csl_themes-product div {
+    padding: 0 0 0 5px;
+}
+
+.csl_themes-price {
+    background: none repeat scroll 0 0 #FFFAF0;
+    border-top: 1px solid #444444;
+    bottom: -21px;
+    color: #00AA00;
+    display: block;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    text-align: right; 
+    width: 269px;
+}
+.csl_themes-price A {
+    text-decoration: none;
+}
+.csl_themes-price:hover {
+    background: #faebd7;
+}
+
+#content .csl_themes-product h3 {
+    background: none repeat scroll 0 0 #F4F4F4;
+    font-family:Verdana, Helvetica, Sans-Serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px;
+}
+
+.csl_themes-product img {
+    float: left;
+    padding: 0 5px 5px 0;
+    max-width: 150px;
+    max-height: 120px;
+}
+
+.csl_themes-product li {
+    list-style: none;
+}
+
