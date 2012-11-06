@@ -1,6 +1,3 @@
-[submodule "core"]
-	path = core
-	url = ssh://lcleveland@cybersprocket.com/home/lobbrary/repos/products/MP-cj-core.git
 [submodule "WPCSL-generic"]
 	path = WPCSL-generic
 	url = /home/wordpress/wp-content/plugins/moneypress-cj-le/WPCSL-generic
