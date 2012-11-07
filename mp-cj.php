@@ -25,35 +25,41 @@ License: GPL3
 
  */
 
+/// DEBUGGING
+/* error_reporting(E_ALL); */
+/* ini_set('display_errors', '1'); */
+
+
 // Drive Path Defines 
 //
 if (defined('MP_CJ_PLUGINDIR') === false) {
     define('MP_CJ_PLUGINDIR', plugin_dir_path(__FILE__));
 }
-if (defined('MP_CJ_ICONDIR') === false) {
-    define('MP_CJ_ICONDIR', MP_CJ_PLUGINDIR . 'images/icons/');
-}
 
-// URL Defines
-//
 if (defined('MP_CJ_PLUGINURL') === false) {
     define('MP_CJ_PLUGINURL', plugins_url('',__FILE__));
 }
-if (defined('MP_CJ_ICONURL') === false) {
-    define('MP_CJ_ICONURL', MP_CJ_PLUGINURL . 'images/icons/');
-}
 
-// The relative path from the plugins directory
-//
 if (defined('MP_CJ_BASENAME') === false) {
     define('MP_CJ_BASENAME', plugin_basename(__FILE__));
 }
 
-// Our product prefix
-//
 if (defined('MP_CJ_PREFIX') === false) {
     define('MP_CJ_PREFIX', 'csl-mp-cj');
 }
+
+if (defined('MP_EBAY_ADMINPAGE') === false) {
+    define('MP_EBAY_ADMINPAGE', get_option('siteurl') . '/wp-admin/admin.php?page=' . MP_CJ_PLUGINDIR );
+}
+
+if (defined('MP_CJ_ICONDIR') === false) {
+    define('MP_CJ_ICONDIR', MP_CJ_PLUGINDIR . 'images/icons/');
+}
+
+if (defined('MP_CJ_ICONURL') === false) {
+    define('MP_CJ_ICONURL', MP_CJ_PLUGINURL . 'images/icons/');
+}
+
 
 // Include our needed files
 //

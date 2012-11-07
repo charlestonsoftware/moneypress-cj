@@ -13,18 +13,26 @@ if (defined('MP_CJ_PLUGINDIR')) {
     global $MP_cj_plugin;
     $MP_cj_plugin = new wpCSL_plugin__mpcj(
         array(
-            'use_obj_defaults'      => true,
-            'cache_obj_name'        => 'mpcjcache',
             'prefix'                => MP_CJ_PREFIX,
-            'css_prefix'            => 'csl_themes',            
-            'name'                  => 'MoneyPress : Commission Junction Edition',
-            'url'                   => 'http://www.cybersprocket.com/products/wpcjproductsearch/',
-            'support_url'           => 'http://redmine.cybersprocket.com/projects/cjwp/wiki',
-            'purchase_url'          => 'http://www.cybersprocket.com/products/wpcjproductsearch/',
-            'basefile'              => MP_CJ_BASENAME,
-            'plugin_path'           => MP_CJ_PLUGINDIR,
-            'plugin_url'            => MP_CJ_PLUGINURL,
             'cache_path'            => MP_CJ_PLUGINDIR . 'cache',
+            'plugin_url'            => MP_CJ_PLUGINURL,
+            'plugin_path'           => MP_CJ_PLUGINDIR,
+            'basefile'              => MP_CJ_BASENAME,
+
+            'name'                  => 'MoneyPress : Commission Junction Edition',
+            'url'                   => 'http://www.charlestonsw.com/product/moneypress-commission-junction-edition/',
+            'support_url'           => 'http://wordpress.org/support/plugin/moneypress-commission-junction-le',
+            'purchase_url'          => 'http://www.charlestonsw.com/product/moneypress-commission-junction-edition/',
+            'rate_url'              => 'http://wordpress.org/support/view/plugin-reviews/moneypress-commission-junction-le',
+            'forum_url'             => 'http://wordpress.org/support/plugin/moneypress-commission-junction-le',
+
+            'has_packages'           => true,
+
+            'use_obj_defaults'      => true,
+            'no_default_css'        => false,
+            'css_prefix'            => 'csl_themes',
+            'cache_obj_name'        => 'mpcjcache',
+
             'driver_name'           => 'CommissionJunction',
             'driver_type'           => 'Panhandler',
             'driver_args'           => array(
@@ -34,9 +42,8 @@ if (defined('MP_CJ_PLUGINDIR')) {
                     'return'    => get_option(MP_CJ_PREFIX.'-return'),
                     'wait_for'  => get_option(MP_CJ_PREFIX.'-wait_for')
                     ),
+
             'shortcodes'            => array('mpcj','mp-cj','mp_cj', 'cj_show-items', 'cj_show_items'),
-            
-            'has_packages'           => true,                
         )
     );    
     
