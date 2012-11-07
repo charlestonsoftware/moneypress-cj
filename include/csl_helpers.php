@@ -13,31 +13,31 @@
  **/
 function csl_mpcj_setup_admin_interface() {
     global $MP_cj_plugin;
+
+    //-------------------------
+    // Navbar Section
+    //-------------------------
+    //
+    $MP_cj_plugin->settings->add_section(
+        array(
+            'name' => 'Navigation',
+            'div_id' => 'mp_cj_navbar',
+            'description' => $MP_cj_plugin->helper->get_string_from_phpexec(MP_CJ_PLUGINDIR.'/templates/navbar.php'),
+            'is_topmenu' => true,
+            'auto' => false
+        )
+    );
+
     
     // Don't have what we need? Leave.
     if (!isset($MP_cj_plugin)) { return; }    
     
-    // Show message if not licensed
-    //
-    if (get_option(MP_CJ_PREFIX.'-purchased') == 'false') {
-        $MP_cj_plugin->notifications->add_notice(
-            2,
-            "Your license " . get_option(MP_CJ_PREFIX . '-license_key') . " could not be validated."
-        );            
-    }         
-    
     // Already been here?  Get out.
     if (isset($MP_cj_plugin->settings->sections['How to Use'])) { return; }    
     
-    // No SimpleXML Support
-    if (!function_exists('simplexml_load_string')) {
-        $MP_cj_plugin->notifications->add_notice(1, __('SimpleXML is required but not enabled.',MP_CJ_PREFIX));
-    }    
-    
     //-------------------------
     // How to Use Section
-    //-------------------------
-    
+    //-------------------------    
     $MP_cj_plugin->settings->add_section(
         array(
             'name' => 'How to Use',
@@ -337,7 +337,7 @@ function csl_mpcj_user_stylesheet() {
  **/
 function csl_mpcj_admin_stylesheet() {
     if ( file_exists(MP_CJ_PLUGINDIR.'css/admin.css')) {
-        wp_enqueue_style('csl_mpcj_admin_css', MP_CJ_PLUGINURL .'css/admin.css');
+        wp_enqueue_style('csl_mpcj_admin_css', MP_CJ_PLUGINURL .'/css/admin.css');
     }
 }
 
@@ -438,6 +438,7 @@ function wpCJ_keyword_list($keywords) {
   }
 }
 
+/*
 function wpCJ_Handle_Admin_Menu() {
   global $MP_cj_plugin;
 
@@ -446,6 +447,7 @@ function wpCJ_Handle_Admin_Menu() {
     add_meta_box('wpcjStoreMB', 'CSL Quick Commission Junction Entry', 'wpCJ_StoreInsertForm', 'page', 'normal');
   }
 }
+*/
 
 function wpCJ_Admin_Head () {
   if ($GLOBALS['editing']) {

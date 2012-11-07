@@ -57,7 +57,7 @@ if (defined('MP_CJ_ICONDIR') === false) {
 }
 
 if (defined('MP_CJ_ICONURL') === false) {
-    define('MP_CJ_ICONURL', MP_CJ_PLUGINURL . 'images/icons/');
+    define('MP_CJ_ICONURL', MP_CJ_PLUGINURL . '/images/icons/');
 }
 
 
@@ -66,6 +66,9 @@ if (defined('MP_CJ_ICONURL') === false) {
 global $MP_cj_plugin;
 include_once(MP_CJ_PLUGINDIR . '/include/config.php'   );
 include_once(MP_CJ_PLUGINDIR . '/include/csl_helpers.php');
+
+include_once(MP_CJ_PLUGINDIR . '/include/actions_class.php');
+$MP_cj_plugin->Actions = new MPCJ_Actions(array('parent'=>$MP_cj_plugin));
 
 if (class_exists('PanhandlerProduct') === false) {
     try {
@@ -89,15 +92,17 @@ if (class_exists('CommissionJunctionPanhandler') === false) {
 register_activation_hook( __FILE__, 'csl_mpcj_activate');
 
 // actions
+add_action('admin_menu'         , array($MP_cj_plugin->Actions,'admin_menu'));
 add_action('admin_print_styles','csl_mpcj_admin_stylesheet');
 add_action('admin_init','csl_mpcj_setup_admin_interface',10);
+add_action('wp_head'            , array($MP_cj_plugin->Actions,'wp_head'));
 add_action('wp_footer', 'csl_mpcj_user_stylesheet');
                          
 //-----------------------------------------------------------------------------
 // LEGACY STUFF - CAN PROBABLY GO AWAY
 //-----------------------------------------------------------------------------
 if ( is_admin() ) {
-  add_action('admin_menu', 'wpCJ_Handle_Admin_Menu');
+  // add_action('admin_menu', 'wpCJ_Handle_Admin_Menu');
   add_filter('admin_print_scripts', 'wpCJ_Admin_Head');
 }
 

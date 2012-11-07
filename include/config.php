@@ -19,7 +19,7 @@ if (defined('MP_CJ_PLUGINDIR')) {
             'plugin_path'           => MP_CJ_PLUGINDIR,
             'basefile'              => MP_CJ_BASENAME,
 
-            'name'                  => 'MoneyPress : Commission Junction Edition',
+            'name'                  => 'MoneyPress : CJ Edition',
             'url'                   => 'http://www.charlestonsw.com/product/moneypress-commission-junction-edition/',
             'support_url'           => 'http://wordpress.org/support/plugin/moneypress-commission-junction-le',
             'purchase_url'          => 'http://www.charlestonsw.com/product/moneypress-commission-junction-edition/',

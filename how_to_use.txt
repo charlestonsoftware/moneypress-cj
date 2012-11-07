@@ -2,17 +2,3 @@
 shortcode to any page where you want to show a list of Commission Junction products. 
 The following code will show products from your Commission Junction store:<br/>
 <code>[mp-cj]</code><br/>
-<br/>
-<p class="productbox_lvl2">
-<strong><a href="http://redmine.cybersprocket.com/projects/cjwp" target="cybersprocket">MoneyPress : Commission Junction Edition</a></strong>
-<br>
-<a href="http://redmine.cybersprocket.com/projects/commercial-products/boards/30" target="cybersprocket">Forum</a>
-|
-<a class="wiki-page" href="http://redmine.cybersprocket.com/projects/cjwp/wiki" target="cybersprocket">Documentation</a>
-|
-<a href="http://redmine.cybersprocket.com/projects/cjwp/files" target="cybersprocket">Downloads</a>
-|
-<a href="http://www.cybersprocket.com/contact-us/" target="cybersprocket">Contact Us</a>
-|
-<a href="http://www.cybersprocket.com/products/wpcjproductsearch/" target="cybersprocket">Buy Now</a>
-</p>

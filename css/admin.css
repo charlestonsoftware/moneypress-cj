@@ -4,11 +4,52 @@
  * admin pages stylesheet.
  *
  ******************************************************************************/
- 
-div#icon-MoneyPress___Commission_Junction_Edition.icon32 {
-    background: url("../../images/mpcj_icon.png") no-repeat scroll -12px -3px transparent;        
+
+/************************************
+ * Plugin Specific Formatting
+ */
+
+
+/*----------------------------------
+ * The Navbar
+ */
+
+div#mp_cj_navbar {
+    background: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    left: -15px;
 }
- 
+
+#mp_cj_navbar ul {
+    margin: 0px;
+}
+#mp_cj_navbar li {
+  float: left;
+  margin: 6px;
+  padding: 3px;
+}
+
+#mp_cj_navbar div.handlediv {
+    display: none;
+    visibility: hidden;
+}
+#mp_cj_navbar h3.hndle {
+    display: none;
+    visibility: hidden;
+}
+
+#icon-MoneyPress___CJ_Edition.icon32,
+#icon-MoneyPress___CJ_Edition___Pro_Pack_Settings,icon32
+{
+    background: url("../images/mpcj_icon.png") no-repeat scroll 1px 1px transparent;
+}
+
+/************************************
+ * Generic Formatting
+ */
+
 p.productbox_lvl2 {
     background: none repeat scroll 0 0 #FEFEFE;
     border: 1px solid #DFDFDF;
