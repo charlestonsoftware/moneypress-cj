@@ -426,3 +426,85 @@ function wpCJ_url_exists($url) {
   return $connectable;
 }
 
+//////////// FUNCTIONS
+
+// Not being used currently, will require heavy reworking to interface with Wordpress properly
+function wpCJ_keyword_list($keywords) {
+  foreach ($keywords as $keyword=>$count) {
+    $keyword_path = ((isset($search_keywords)) ? str_replace(' ', '/', $search_keywords) : '') . "/";
+    // Not sure whether or not the links should be addative at this point...
+    // echo "<a href='" . ROOT_POSTFIX . "/$keyword_path$keyword'>$keyword</a> \n";
+    echo "<a href='" . ROOT_POSTFIX . "/$keyword'>$keyword</a> \n";
+  }
+}
+
+function wpCJ_Handle_Admin_Menu() {
+  global $MP_cj_plugin;
+
+  if ($MP_cj_plugin->settings->check_required('CJ Communications')) {
+    add_meta_box('wpcjStoreMB', 'CSL Quick Commission Junction Entry', 'wpCJ_StoreInsertForm', 'post', 'normal');
+    add_meta_box('wpcjStoreMB', 'CSL Quick Commission Junction Entry', 'wpCJ_StoreInsertForm', 'page', 'normal');
+  }
+}
+
+function wpCJ_Admin_Head () {
+  if ($GLOBALS['editing']) {
+    wp_enqueue_script('wpCJStoreAdmin', plugins_url('js/cjstore.js', __FILE__), array('jquery'), '1.0.0');
+  }
+}
+
+function wpCJ_StoreInsertForm() {
+?>
+<table class="form-table">
+  <tr valign="top">
+    <th align="right" scope="row"><label for="wpCJ_keywords"><?php _e('Keywords:')?></label></th>
+    <td>
+      <input type="text" size="40" style="width:95%;" name="wpCJ_keywords" id="wpCJ_keywords" />
+    </td>
+  </tr>
+  <tr valign="top">
+    <th align="right" scope="row"><label for="wpCJ_itemcount"><?php _e('Number of Items:')?></label></th>
+    <td>
+      <select name="wpCJ_itemcount" id="wpCJ_itemcount">
+        <option>1</option>
+        <option>5</option>
+        <option>10</option>
+        <option>20</option>
+        <option>50</option>
+      </select>
+    </td>
+  </tr>
+</table>
+<p class="submit">
+  <input type="button" onclick="return this_wpCJAdmin.sendToEditor(this.form);" value="<?php _e('Create Commission Junction Shortcode &raquo;'); ?>" />
+</p>
+<?php
+}
+
+/**************************************
+ ** function: csl_mpcj_add_settings()
+ **
+ ** Add plus settings to the admin interface.
+ **
+ **/
+function csl_mpcj_add_settings() {
+    global $MP_cj_plugin;
+
+    $MP_cj_plugin->settings->add_section(
+        array(
+            'name'          => __('Display Settings',MP_CJ_PREFIX),
+            'description'   => ''
+        )
+    );
+
+    $MP_cj_plugin->settings->add_item(
+        'Display Settings',
+        __('Link Modifiers',MP_CJ_PREFIX),
+        'link_modifiers',
+        'text',
+        false,
+        __('Enter any modifiers you want to add to the external product link. ' .
+        'Must be a fully formed anchor (A tag) qualifier.  Example: rel="nofollow"',MP_CJ_PREFIX)
+    );
+}
+
