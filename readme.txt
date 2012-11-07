@@ -1,11 +1,12 @@
 === MoneyPress : Commission Junction Edition ===
 Plugin Name: MoneyPress : Commission Junction Edition
-Contributors: cybersprocket
-Donate link: http://www.cybersprocket.com/products/wpcjproductsearch/
+Contributors: charlestonsw
+Donate link: http://www.charlestonsw.com/product/moneypress-commission-junction-edition/
 Tags: plugin,post,page,cj,comission,junction,affiliate,store,commission,commission junction
 Requires at least: 3.3
-Tested up to: 3.3.2
-Stable tag: 1.2.1
+Tested up to: 3.4.2
+Stable tag: 1.3
+
 Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
 
 == Description ==
@@ -25,100 +26,70 @@ Quickly and easily display products from your Commission Junction affiliate part
   faster lookup times.
   
 
-= Pro Pack Available =
+= Pro Pack Premium Add-On =
 
-The Pro Pack is a paid add-on that adds teh following features:
+The [Pro Pack](http://www.charlestonsw.com/product/moneypress-ebay-edition/) is a paid add-on that adds the following features:
 
-* [Theme System](http://redmine.cybersprocket.com/projects/cjwp/wiki/Themes) : Use one of our basic themes including multi-column output or easily create and add your own.
-* [More Settings](http://redmine.cybersprocket.com/projects/cjwp/wiki/Setttings) : More settings for better listing control.
-
-= Upgrades =
-
-We will offer upgrade versions from time-to-time when special new features are added to the product.  
-If you do not purchase the upgrade you will still receive bug fixes and minor feature additions, however
-some of the newest features may not be available to you.   
-
-The main product will always remain fully functional and free.  If you'd like to have some of the latest
-"bells & whistles" purchasing the upgrades is a great way to help support us and encourage us to add even
-more items the next time around.
-
-= Looking For Customized WordPress Plugins? =
-
-If you are looking for custom WordPress development for your own plugins, give 
-us a call.   Not only can we offer competitive rates but we can also leverage 
-our existing framework for WordPress applications which reduces development time 
-and costs.
-
-Learn more at: http://www.cybersprocket.com/services/wordpress-developers/
+* Custom CSS : Tweak the look of the results via a simple admin panel CSS editor.
+* Theme System : Use one of our basic themes including multi-column output or easily create and add your own.
+* More Settings : More settings for better listing control.
 
 = Related Links =
 
-* [MoneyPress Commission Junction Standard Edition](http://www.cybersprocket.com/products/wpcjproductsearch/)
-* [Other Cyber Sprocket Plugins](http://wordpress.org/extend/plugins/profile/cybersprocket/) 
-* [Our Facebook Page](http://www.facebook.com/cyber.sprocket.labs)
+* [CSA](http://www.charlestonsw.com)
+* [Resend Your License](http://www.charlestonsw.com/mindset/contact-us/)
+* [Documentation](http://www.charlestonsw.com/support/)
+* [WordPress Support Forum](http://www.wordpress.org/support/plugin/moneypress-commission-junction-le)
 
 == Installation ==
 
 = Requirements =
 
-* PHP 5.1+
-* SimpleXML enabled
+PHP 5.2 or later with support for cURL and SimpleXML.
 
-= How To Install =
+= Main Plugin =
 
-The best way to install and update is to search "MoneyPress Commission Junction LE" in WordPress and install or update from there.
+ * Login to WordPress and search for "MoneyPress Commission Junction" from the add plugins page.
+ * Click install.
+ * Browse to ‘MoneyPress : Commission Junction Edition’ in your admin settings menu.
+ * (Optional) Enter your seller ID if you want to list only your own products.
+ * (Optional) Set the number of products you wish to show per page.  By default, ten products will be shown.
+ * (Optional) Enter your affiliate information.
+ * Enter the shortcode on any page you want to list products.
 
-To do it manually:
-
-* Download the zip file from the WordPress Extensions site.
-* Upload the zip file into WordPress via "upload plugins".
-* Get your CJ Key, and CJ Web ID from Commission Junction
-* Go to MoneyPress : CJ in the Wordpress Settings menu.
-* Enter your CJ Key and CJ Web ID and any other options you'd like to set.
 
 == Frequently Asked Questions ==
+
+= Where can I find support for this plugin? =
+
+[WordPress Support Forum](http://www.wordpress.org/support/plugin/moneypress-commission-junction-le)
 
 = What are the terms of the license? =
 
 The license is based on GPL.  You get the code, feel free to modify it as you
-wish.  We prefer that our customers pay us because they like what we do and 
-want to support our efforts to bring useful software to market.  Learn more
-on our [CSL License Terms page](http://redmine.cybersprocket.com/projects/commercial-products/wiki/Cyber_Sprocket_Labs_Licensing_Terms "CSL License Terms page").
+wish.  I prefer that customers buy a premium add-on because they like what I do and
+want to support my efforts to bring useful software to market.
 
-= What percentage of my sales does Cyber Sprocket keep? =
+Learn more about [my thoughts on licensing and refunds](http://www.charlestonsw.com/license-and-refund-policy/).
 
-None.  Everything you earn through this plugin is yours, we don't siphon off 
-any of your sales or earn anything outside of our one-time license fee.
+= What percentage of sales do I keep? =
 
+None.  Everything you earn through this plugin is yours, I don't siphon off
+any of your sales or earn anything unless you purchase a premium add-on.
 
 = How can I translate the plugin into my language? =
+
+The plugin uses the standard WordPress language file system.
 
 * Find on internet the free program POEDIT, and learn how it works.
 * Use the .pot file located in the languages directory of this plugin to create or update the .po files.
 * Place these file in the languages subdirectory.
-* If everything is ok, email the files to lobbyjones@cybersprocket.com and we will add them to the next release.
+* If everything is ok, email the files to me and I will add them to the next release.
 * For more information on POT files, domains, gettext and i18n have a look at the I18n for WordPress developers Codex page and more specifically at the section about themes and plugins.
-
-If you create a translation file please send it to us and we'll include it in the next release!  We'll also list you here in our credits section!
-
-= What browsers are supported? =
-
-All major browsers should work, however Cyber Sprocket Labs only officially supports the current and prior releases of Internet Explorer, Firefox, Chrome, and Safari.
-
-
-= How can i translate the plugin into my language? =
-
-* Find on internet the free program POEDIT, and learn how it works.
-* Use the .pot file located in the languages directory of this plugin to create or update the .po and .mo files.
-* Place these file in the languages subdirectory.
-* If everything is ok, email the files to lobbyjones@cybersprocket.com and we will add them to the next release.
-* For more information on POT files, domains, gettext and i18n have a look at the I18n for WordPress developers Codex page and more specifically at the section about themes and plugins.
-
-= What Happened To The LE and Standard Edition =
-
-We have merged both products into one.  MoneyPress : Commission Junction Edition now offers complete base functionality for free.   Users can opt to purchase the Pro Pack add-on to get extra features like themes.
 
 == Screenshots ==
+
+More screenshots are available on the (CSA website)[http://www.charlestonsw.com/].
 
 1. Product Listing Output
 2. Adding A Shortcode To A Listing
@@ -131,6 +102,11 @@ We have merged both products into one.  MoneyPress : Commission Junction Edition
 9. A short product listing of books (2-column style premium feature)
 
 == Changelog ==
+
+= v1.3 (November 2012, Election Day USA) =
+
+* Add custom CSS admin setting for Pro Pack users.
+* Transition to CSA.
 
 = v1.2.1 (April 2012) =
 

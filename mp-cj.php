@@ -1,29 +1,29 @@
 <?php
 /*
 Plugin Name: MoneyPress : Commission Junction Edition
-Plugin URI: http://www.cybersprocket.com/products/wpcjproductsearch/
+Plugin URI: http://www.charlestonsw.com/product/moneypress-commission-junction-edition/
 Description: Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
-Version: 1.2.1
-Author: Cyber Sprocket Labs
-Author URI: http://www.cybersprocket.com
+Version: 1.3
+Author: Charleston Software Associates
+Author URI: http://www.charlestonsw.com
 License: GPL3
   
-Copyright 2012  Cyber Sprocket Labs (info@cybersprocket.com)
+ Copyright (C) 2012 Charlestonn Software Associates
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 3 of the License, or
-(at your option) any later version.
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 3
+ of the License, or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+ */
 
 // Drive Path Defines 
 //
