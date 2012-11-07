@@ -6,7 +6,7 @@
  ******************************************************************************/
  
 div#icon-MoneyPress___Commission_Junction_Edition.icon32 {
-    background: url("../../core/images/mpcj_icon.png") no-repeat scroll -12px -3px transparent;        
+    background: url("../../images/mpcj_icon.png") no-repeat scroll -12px -3px transparent;        
 }
  
 p.productbox_lvl2 {
@@ -19,7 +19,7 @@ p.productbox_lvl2 {
 }
 
 img.helpicon {
-    background: url("../../core/images/General_icons16.png") no-repeat scroll -12px -3px transparent;    
+    background: url("../../images/General_icons16.png") no-repeat scroll -12px -3px transparent;    
 }
 
 /* Input Labels */
@@ -34,7 +34,7 @@ div.csl_themes-input {
 
 /* More Info Box */
 div.csl_themes-moreicon {
-    background: url("../../core/images/General_icons16.png") 
+    background: url("../../images/General_icons16.png") 
         no-repeat scroll 
         -17px 0px 
         transparent; 
@@ -54,7 +54,7 @@ div.csl_themes-reqbox {
     clear: left;
 }
 div.csl_themes-reqicon {
-    background: url("../../core/images/General_icons16.png") 
+    background: url("../../images/General_icons16.png") 
         no-repeat scroll 
         0px 0px 
         transparent; 

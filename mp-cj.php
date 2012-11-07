@@ -30,11 +30,8 @@ License: GPL3
 if (defined('MP_CJ_PLUGINDIR') === false) {
     define('MP_CJ_PLUGINDIR', plugin_dir_path(__FILE__));
 }
-if (defined('MP_CJ_COREDIR') === false) {
-    define('MP_CJ_COREDIR', MP_CJ_PLUGINDIR . 'core/');
-}
 if (defined('MP_CJ_ICONDIR') === false) {
-    define('MP_CJ_ICONDIR', MP_CJ_COREDIR . 'images/icons/');
+    define('MP_CJ_ICONDIR', MP_CJ_PLUGINDIR . 'images/icons/');
 }
 
 // URL Defines
@@ -42,11 +39,8 @@ if (defined('MP_CJ_ICONDIR') === false) {
 if (defined('MP_CJ_PLUGINURL') === false) {
     define('MP_CJ_PLUGINURL', plugins_url('',__FILE__));
 }
-if (defined('MP_CJ_COREURL') === false) {
-    define('MP_CJ_COREURL', MP_CJ_PLUGINURL . '/core/');
-}
 if (defined('MP_CJ_ICONURL') === false) {
-    define('MP_CJ_ICONURL', MP_CJ_COREURL . 'images/icons/');
+    define('MP_CJ_ICONURL', MP_CJ_PLUGINURL . 'images/icons/');
 }
 
 // The relative path from the plugins directory
@@ -64,7 +58,7 @@ if (defined('MP_CJ_PREFIX') === false) {
 // Include our needed files
 //
 include_once(MP_CJ_PLUGINDIR . '/include/config.php'   );
-include_once(MP_CJ_COREDIR   . 'csl_helpers.php'       );
+include_once(MP_CJ_PLUGINDIR . '/include/csl_helpers.php'       );
 include_once(MP_CJ_PLUGINDIR . 'plus.php'       );
 if (class_exists('PanhandlerProduct') === false) {
     try {

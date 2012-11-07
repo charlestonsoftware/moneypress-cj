@@ -336,8 +336,8 @@ function csl_mpcj_user_stylesheet() {
  ** Add the admin stylesheets to admin pages.
  **/
 function csl_mpcj_admin_stylesheet() {
-    if ( file_exists(MP_CJ_COREDIR.'css/admin.css')) {
-        wp_enqueue_style('csl_mpcj_admin_css', MP_CJ_COREURL .'css/admin.css'); 
+    if ( file_exists(MP_CJ_PLUGINDIR.'css/admin.css')) {
+        wp_enqueue_style('csl_mpcj_admin_css', MP_CJ_PLUGINURL .'css/admin.css');
     }
 }
 
