@@ -28,7 +28,7 @@ Quickly and easily display products from your Commission Junction affiliate part
 
 = Pro Pack Premium Add-On =
 
-The [Pro Pack](http://www.charlestonsw.com/product/moneypress-ebay-edition/) is a paid add-on that adds the following features:
+The [Pro Pack](http://www.wordpress.org/support/plugin/moneypress-commission-junction-le) is a paid add-on that adds the following features:
 
 * Custom CSS : Tweak the look of the results via a simple admin panel CSS editor.
 * Theme System : Use one of our basic themes including multi-column output or easily create and add your own.
