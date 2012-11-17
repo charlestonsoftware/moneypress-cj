@@ -5,7 +5,7 @@ Donate link: http://www.charlestonsw.com/product/moneypress-commission-junction-
 Tags: plugin,post,page,cj,comission,junction,affiliate,store,commission,commission junction
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 1.3
+Stable tag: 1.3.2
 
 Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
 
@@ -102,6 +102,14 @@ More screenshots are available on the (CSA website)[http://www.charlestonsw.com/
 9. A short product listing of books (2-column style premium feature)
 
 == Changelog ==
+
+= v1.3.2 (November 2012) =
+
+* Fix Pro Pack SKU number.
+
+= v1.3.1 (November 2012) =
+
+* Fix in-app pro pack button ID.
 
 = v1.3 (November 2012, Election Day USA) =
 

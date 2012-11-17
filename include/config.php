@@ -78,9 +78,9 @@ function configure_mpcj_propack() {
                 'help_text'         => 'A variety of enhancements are provided with this package.  ' .
                                        'See the <a href="'.$MP_cj_plugin->purchase_url.'" target="Cyber Sprocket">product page</a> for details.  If you purchased this add-on ' .
                                        'come back to this page to enter the license key to activate the new features.',
-                'sku'               => 'MPCJ',
-                'paypal_button_id'  => 'WXZH2ATCDAJ4Y',
-                'paypal_upgrade_button_id' => 'WXZH2ATCDAJ4Y'
+                'sku'               => 'MPCJ-PRO',
+                'paypal_button_id'  => 'SUWSAQBHYZFQW',
+                'paypal_upgrade_button_id' => 'SUWSAQBHYZFQW'
             )
         );
     

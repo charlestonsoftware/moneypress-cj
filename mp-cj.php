@@ -3,7 +3,7 @@
 Plugin Name: MoneyPress : Commission Junction Edition
 Plugin URI: http://www.charlestonsw.com/product/moneypress-commission-junction-edition/
 Description: Quickly and easily display products from your Commission Junction affiliate partners on your website. Great for earning affiliate revenue or adding content.
-Version: 1.3
+Version: 1.3.2
 Author: Charleston Software Associates
 Author URI: http://www.charlestonsw.com
 License: GPL3
